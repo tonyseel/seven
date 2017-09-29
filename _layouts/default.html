@@ -6,24 +6,27 @@
 <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>a
 <![endif]-->
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/custom-styles.css">
+<link rel="stylesheet" href="{{site.baseurl}}/css/bootstrap.min.css">
+<link rel="stylesheet" href="{{site.baseurl}}/css/custom-styles.css">
 </head>
 <body>
 <div class="">
   <header>
      {% include header-top.html %}
+
        {% include logo-menu-section.html %}
-    </header>
+  </header>
     
    {{content}}
+
   <footer>
       {% include footer-section.html %}
+
        {% include footer-menu.html %} 
   </footer>
 </div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="{{site.baseurl}}/js/popper.min.js"></script>
+<script src="{{site.baseurl}}/js/bootstrap.min.js"></script>
 </body>
 </html>

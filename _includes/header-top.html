@@ -1,19 +1,21 @@
 <section class="head-top">
         	<div class="container">
+             {% for header-top in site.data.header-top %}
             	<div class="row">
            	  	  	<aside class="col-md-9">
-					  	<div class="phone">04255 252 096</div>
-                      	<div class="email">info@prepoly.com</div>
-                        <div class="location">107 Trichy Road, Near KVB Bank, Palladam, Tirupur - 641 664.</div>
+					  	<div class="phone">{{header-top.phone-number}}</div>
+                      	<div class="email">{{header-top.email}}</div>
+                        <div class="location">{{header-top.address}}</div>
                     </aside>
                 	<aside class="col-md-3">
                     	<ul class="social-media">
-                       		<li><a href="#"><img src="{{site.baseurl}}/images/facebook-01.png" alt=""/></a></li>
-                            <li><a href="#"><img src="{{site.baseurl}}/images/twitter-01.png" alt=""/></a></li>
-                            <li><a href="#"><img src="{{site.baseurl}}/images/google-plus.png" alt=""/></a></li>
-                      		<li><a href="#"><img src="{{site.baseurl}}/images/linkedin.png" alt=""/></a></li>
+                       		<li><a href="{{header-top.facebook}}"><img src="{{site.baseurl}}/images/facebook-01.png" alt=""/></a></li>
+                            <li><a href="{{header-top.twitter}}"><img src="{{site.baseurl}}/images/twitter-01.png" alt=""/></a></li>
+                            <li><a href="{{header-top.google-plus}}"><img src="{{site.baseurl}}/images/google-plus.png" alt=""/></a></li>
+                      		<li><a href="{{header-top.linkedin}}"><img src="{{site.baseurl}}/images/linkedin.png" alt=""/></a></li>
                       	</ul>
                   </aside>
                 </div>
+                {% endfor %}
             </div>
         </section>

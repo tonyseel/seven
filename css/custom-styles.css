@@ -1,0 +1,241 @@
+h1 {
+	font-size: 36px;
+	font-weight: 400;
+	background: url(../images/title.png) bottom center no-repeat;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+h6 {
+	font-size: 16px;
+	font-weight: 400;
+	color: #7b7b87;
+	margin-bottom: 20px;
+}
+.head-top {
+	background: #207aaf;
+	min-height: 56px;
+}
+.head-bottom {
+	background: #FFF;
+	padding: 40px 0;
+}
+.head-top .phone {
+	float: left;
+	color: #FFF;
+	margin: 10px 30px 10px 0;
+	line-height: 36px;
+	background: url(../images/cell-phone.png) 0 6px no-repeat;
+	padding-left: 28px;
+}
+.head-top .email {
+	float: left;
+	color: #FFF;
+	margin: 10px 30px 10px 0;
+	line-height: 36px;
+	background: url(../images/email.png) 0 6px no-repeat;
+	padding-left: 30px;
+}
+.head-top .location {
+	float: left;
+	color: #FFF;
+	margin: 10px 0;
+	line-height: 36px;
+	background: url(../images/location.png) 0 6px no-repeat;
+	padding-left: 28px;
+}
+.head-top ul.social-media {
+	float: right;
+	margin: 10px 0;
+	width: auto;
+}
+.nav li { 
+	font-size:18px;
+	font-weight:600;
+	margin-left:30px;
+}
+.nav li a { 
+	color:#207aaf;
+	text-decoration:none;
+}
+.home-banner {
+	display: block;
+}
+.home-banner img{width:100%}
+.welcome-fluid {
+	padding: 60px 0 0 0;
+}
+.form-box {
+	padding: 40px 40px 0 40px;
+	background: #cce2f9;
+	border-radius: 6px;
+	margin-top: 30px;
+}
+.form-box .text-box {
+	font-size: 18px;
+	padding: 0 15px;
+	border-radius: 6px;
+	border: 1px solid #d5d6db;
+	line-height: 60px;
+	min-height:60px;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.form-box .text-area {
+	font-size: 18px;
+	padding: 10px 15px;
+	border-radius: 6px;
+	border: 1px solid #d5d6db;
+	line-height: 24px;
+	resize: none;
+	min-height: 160px;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.form-box .btn {
+	font-size: 18px;
+	padding: 0;
+	border-radius: 6px;
+	border: 0 none;
+	background: #00134d;
+	color: #FFF;
+	text-align: center;
+	font-weight: 600;
+	line-height: 60px;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.prepoly-pipes {
+	padding: 60px 0;
+}
+.prepoly-pipes .subtitle {
+	color: #7b7b87;
+	font-size: 18px;
+	font-weight: 600;
+}
+.prepoly-pipes .icon {
+	min-height: 130px;
+	position: relative;
+	display: block;
+}
+.prepoly-pipes .icon img {
+	max-height: 100%;
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.our-products {
+	background: url(../images/home-banner.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 60px 0;
+}
+.our-products .product-item {
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #FFF;
+}
+.our-products .img-fluid {
+	position: relative;
+}
+.our-products .subtitle {
+	position: relative;
+	color: #FFF;
+	background: url(../images/box.png) 0 0 repeat;
+	min-height: 45px;
+	margin-top: -45px;
+	padding: 12px 15px;
+}
+.our-products .read-more {
+	position: absolute;
+	bottom: 36px;
+	right: 10px;
+	background: url(../images/read-more.png) 0 0 no-repeat;
+	width: 141px;
+	color: #FFF;
+	text-align: center;
+	line-height: 36px;
+	text-decoration: none;
+	display: block;
+}
+.our-products .navigation {
+	margin: 60px auto 0 auto;
+	width: 102px;
+	display: block;
+}
+.our-products .navigation a.next {
+	float: right;
+}
+.our-products .navigation a.prev {
+	float: left;
+}
+.map {
+	display: block;
+}
+.map iframe {
+	width: 100%;
+	min-height: 380px;
+}
+.foot-top {
+	background: #024f9f;
+	padding: 60px 0;
+}
+.foot-bottom {
+	background: #343434;
+	padding: 20px 0;
+}
+.foot-top h2 {
+	color: #FFF;
+}
+.foot-top p {
+	color: #FFF;
+	font-size: 18px;
+	line-height: 30px;
+}
+.foot-top p span {
+	font-weight: 600;
+}
+.foot-top ul.social {
+	list-style: none;
+	margin: 60px 0 0 0;
+	padding: 0;
+}
+.foot-top ul.social li {
+	margin: 0 10px 0 0;
+	padding: 0;
+	display: inline-block;
+	float: left;
+}
+.foot-top ul.social li a {
+	display: block;
+}
+.copyrights {
+	color: #FFF;
+}
+ul.social-media {
+	width: 200px;
+	margin: 20px auto 0 auto;
+	padding: 0;
+}
+ul.social-media li {
+	float: left;
+	list-style: none;
+	display: block;
+}
+ul.social-media li a {
+	float: left;
+	width: 36px;
+	height: 36px;
+	border: 1px solid #FFF;
+	text-align: center;
+	margin-left: 10px;
+	line-height: 32px;
+	border-radius: 4px;
+}

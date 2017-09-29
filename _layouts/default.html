@@ -13,63 +13,13 @@
 <div class="">
   <header>
      {% include header-top.html %}
-        <section class="head-bottom">
-          <div class="container">
-              <div class="row">
-                <div class="col-md-3"><a href="#"><img src="images/logo.png" alt=""/></a></div>
-                  <div class="col-md-9">
-                      <ul class="float-right nav">
-                        <li><a href="#">Home</a></li>
-                        <li>About Us</li>
-                        <li>Products</li>
-                        <li>Privacy</li>
-                        <li>Blog</li>
-                        <li>Contact Us</li>
-                      </ul>
-                    </div>
-              </div>  
-            </div>
-        </section>
+       {% include logo-menu-section %}
     </header>
     <section class="home-banner"><img src="images/home-banner.jpg" class="img-fluid" alt=""/></section>
    
   <footer>
-      <section class="foot-top">
-          <div class="container">
-              <div class="row">
-                  <aside class="col-md-5">
-                      <h2>Find us on</h2>
-                      <p><span>C.R.I. PUMPS PRIVATED LIMITED</span><br />480-481, Sathy Main Road, Kurumbapalayam,<br />SS Kulam Post, Coimbatore, PIN 641 107.</p>
-                    </aside>
-                    <aside class="col-md-4">
-                      <h2>&nbsp;</h2>
-                      <p>in.crigroup.com<br />corp@cripumps.com<br />TOLL FREE 1800 121 1205</p>
-                    </aside>
-                    <aside class="col-md-3">
-                        <ul class="social">
-                          <li><a href="#"><img src="images/facebook.png" alt=""/></a></li>
-                            <li><a href="#"><img src="images/twitter.png" alt=""/></a></li>
-                          <li><a href="#"><img src="images/youtube.png" alt=""/></a></li>
-                        </ul>
-                    </aside>
-                </div>
-            </div>
-      </section>
-        <section class="foot-bottom">
-          <div class="container">
-              <div class="row">
-                  <aside class="col-md-12 text-center copyrights">Copyrights 2016 Prepoly Pipes. All rights Reserved.</aside>
-                    <aside class="col-md-12">
-                      <ul class="social-media">
-                          <li><a href="#"><img src="images/facebook-01.png" alt=""/></a></li>
-                            <li><a href="#"><img src="images/twitter-01.png" alt=""/></a></li>
-                            <li><a href="#"><img src="images/google-plus.png" alt=""/></a></li>
-                          <li><a href="#"><img src="images/linkedin.png" alt=""/></a></li>
-                        </ul>
-                    </aside>
-                </div>
-            </div>
-        </section>
+      {% include footer-section.html %}
+       {% include footer-menu.html %} 
   </footer>
 </div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>

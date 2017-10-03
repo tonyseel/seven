@@ -21,8 +21,9 @@ h6 {
 }
 .head-bottom {
 	background: #FFF;
-	padding: 40px 0;
+	padding: 32px 0;
 }
+.head-bottom ul{margin-top:10px;}
 .head-top .phone {
 	float: left;
 	color: #FFF;

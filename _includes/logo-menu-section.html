@@ -2,15 +2,15 @@
         	<div class="container">
    	  	  	  <div class="row"> 
               {% for logo in site.data.logo-menu-section %}
-           			<div class="col-md-3"><a href="#">{{logo.logo-text}}</a></div>
+           			<div class="col-md-3"><a href="#" style="font-size:18px;color:#207aaf;font-weight:700">{{logo.logo-text}}</a></div>
                 	<div class="col-md-9">
                    	  <ul class="float-right nav">
                         <li><a href="{{site.baseurl}}">Home</a></li>
-                        <li><a href="{{site.baseurl}}" id="nav2">About Us</a></li>
-                        <li><a href="{{site.baseurl}}" id="nav3">Products</a></li>
-                        <li><a href="{{site.baseurl}}" id="nav4">Privacy</a></li>
-                        <li><a href="{{site.baseurl}}" id="nav5">Blog</a></li>
-                        <li><a href="{{site.baseurl}}" id="nav6">Contact Us</a></li>
+                        <li><a href="{{site.baseurl}}/#nav2">About Us</a></li>
+                        <li><a href="{{site.baseurl}}/#nav3">Products</a></li>
+                        <li><a href="{{site.baseurl}}/#nav4">Privacy</a></li>
+                        <li><a href="{{site.baseurl}}/#nav5">Blog</a></li>
+                        <li><a href="{{site.baseurl}}/#nav6">Contact Us</a></li>
                       </ul>
                     </div>
               {% endfor %}

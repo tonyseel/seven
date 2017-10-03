@@ -12,7 +12,7 @@
      .resmenu ul li {border-bottom:1px solid #fff;padding:10px;}
 	 .responsive-menu i{color:#fff\9}
 
-	 .header-bottom a{text-align:center;}
+	 .head-bottom a{text-align:center;}
 	.aboutsection img{width:100%;display:inline-block}
 	.contactform h2{font-size:20px;font-weight:700}
 	.contact_form p{margin-bottom:5px}
@@ -21,8 +21,10 @@
 	.foot-top h2 {font-size:24px;}
 	.foot-top p span{font-size:15px;}
 	.img-fluid img{
-	position: relative;
+	position: relative;width:100%;
 }
+
+.welcome-fluid h1{font-size:25px;}
 }
 
 @media only screen and (min-width:768px) and (max-width:1024px)
@@ -36,9 +38,10 @@
 	 .resmenu ul {background: #F1DDBC;display:block}   
      .resmenu ul li {border-bottom:1px solid #fff;padding:10px;}
 	 .responsive-menu i{color:#fff\9}
-	
+
+	.head-bottom a{text-align:center;}
 	.img-fluid img{
-	position: relative;
+	position: relative;width:100%;
 }
 	
 }

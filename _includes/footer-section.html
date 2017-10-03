@@ -14,15 +14,15 @@
                       {{footer.call}}</p>
                     </aside>
                     {% endfor %}
-
+                    {% for header-top in site.data.header-top %}
                     <aside class="col-md-3">
                         <ul class="social">
-                          <li><a href="#"><img src="images/facebook.png" alt=""/></a></li>
-                            <li><a href="#"><img src="images/twitter.png" alt=""/></a></li>
-                          <li><a href="#"><img src="images/youtube.png" alt=""/></a></li>
+                          <li><a href="{{header-top.facebook}}"><img src="{{site.baseurl}}/images/facebook.png" alt=""/></a></li>
+                            <li><a href="{{header-top.twitter}}"><img src="{{site.baseurl}}/mages/twitter.png" alt=""/></a></li>
+                          <li><a href="{{header-top.google-plus}}"><img src="{{site.baseurl}}/images/google-plus.png" alt=""/></a></li>
                         </ul>
                     </aside>
-
+                 {% endfor %}
                 </div>
             </div>
       </section>

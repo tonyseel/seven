@@ -1,14 +1,10 @@
 - welcome-heading: Welcome to Prepoly Pipes
   welcome-subheading: “Prepoly” is an exclusive brand of “Premier” PVC industry, Which meets “ISI” sstandard
-  
-- welcome-image: 01.png
-  welcome-title: Strict Quality Standards 
-
-- welcome-image: 01.png
-  welcome-title: Strict Quality Standards
-
-- welcome-image: 01.png
-  welcome-title: Strict Quality Standards  
-
-- welcome-image: 01.png
-  welcome-title: Strict Quality Standards 
+  welcome-image-one: 01.png
+  welcome-title-one: Strict Quality Standards 
+  welcome-image-two: 01.png
+  welcome-title-two: Strict Quality Standards
+  welcome-image-three: 01.png
+  welcome-title-three: Strict Quality Standards  
+  welcome-image-four: 01.png
+  welcome-title-four: Strict Quality Standards 

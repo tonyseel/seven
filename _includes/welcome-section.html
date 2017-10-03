@@ -7,10 +7,12 @@
                         <h6 class="text-center">{{welcome.welcome-subheading}}</h6>
                     </aside>
                    {% for welcome in site.data.welcome-section %}
+                        
                 	<aside class="col-md-3">
                     	<div class="icon text-center"><img src="images/{{welcome.welcome-image}}" alt=""/></div>
                     	<div class="subtitle text-center">{{welcome.welcome-title}}</div>
                     </aside>
+
                     {% endfor %}
                 </div>
             </div>

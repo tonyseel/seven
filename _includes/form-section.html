@@ -1,30 +1,28 @@
-<section class="welcome-fluid">
-        	<div class="container">
-            	 {% for form in site.data.form-section %}
-               <div class="row">
-                	<div class="col-md-12">
-                    	<h1 class="text-center">{{form.contact-title}}</h1>
+      <section class="welcome-fluid">
+          <div class="container">
+           {% for form in site.data.form-section %}
+              <div class="row">
+                  <div class="col-md-12">
+                      <h1 class="text-center">{{form.form-title}}</h1>
+                        <h6 class="text-center">{{form.form-subline}}</h6>
                         
-                        <h6 class="text-center">{{form.contact-subline}}</h6>
                     </div>
                     <div class="col-md-12">
-                   	  <div class="form-box">
-                   	    <div class="row">
-                         <form class="contact_form" method="post" action="{{form.form-action}}">
-                       	  <aside class="col-md-6">
-                                	<input type="text" class="text-box" placeholder="Enter your Name">
-                                    <input type="text" name="email" class="text-box" placeholder="Enter your Email">
+                      <div class="form-box">
+                        <div class="row">
+                          <aside class="col-md-6">
+                                  <input type="text" class="text-box" placeholder="Enter your Name">
+                                    <input type="text" class="text-box" placeholder="Enter your Email">
                                     <input type="text" class="text-box" placeholder="Enter your Phone">
                                 </aside>
                                 <aside class="col-md-6">
-                               	  <textarea class="text-area" placeholder="Enter your Message"></textarea>
-                                  <input type="submit" class="btn" value="Submit">
-                          	</aside>
-                          </form>
+                                  <textarea class="text-area" placeholder="Enter your Message"></textarea>
+                                  <input type="button" class="btn" value="Submit">
+                            </aside>
                             </div>
                         </div>
                     </div>
                 </div>
-                {% endfor %}
+           }
             </div>
         </section>

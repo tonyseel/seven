@@ -2,8 +2,9 @@
         	<div class="container">
             	<div class="row">
 
-                 {% for product in site.data.product-section %}
-                	<aside class="col-md-12"><h1 class="text-center">{{product.product-title}}</h1></aside>
+                
+                	<aside class="col-md-12"><h1 class="text-center"></h1></aside>
+                   {% for product in site.data.product-section %}
                 	<aside class="col-md-4">
                     	<div class="product-item">
                        	  	<div class="img-fluid"><img src="images/{{product.product-image}}"  alt=""/></div>

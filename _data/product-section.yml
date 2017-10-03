@@ -1,8 +1,9 @@
-- product-image: product.jpg
-  product-subtitle: UPVC Plumbing Pipes
+- product-heading: Our productss
+- product-image-one: product.jpg
+  product-subtitle-one: UPVC Plumbing Pipes
 
-- product-image: product.jpg
-  product-subtitle: UPVC Submersible Column Pipes
+- product-image-two: product.jpg
+  product-subtitle-two: UPVC Submersible Column Pipes
 
-- product-image: product.jpg
-  product-subtitle: Water Tanks
+- product-image-three: product.jpg
+  product-subtitle-three: Water Tanks

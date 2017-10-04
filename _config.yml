@@ -1,7 +1,7 @@
 # site setting
 title: seven
 baseurl: /seven
-tagline: Sample Optin Form
+favicon: favicon.png
 banner-image: home-banner.jpg 
 exclude: ['README.md']
 permalink: pretty #to remove .html

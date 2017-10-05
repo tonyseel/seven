@@ -294,7 +294,7 @@ ul.posts-archive h2 {
     font-size: 30px;
     font-weight: bold;
     display: inline;
-    line-height: 2.7em;color:#00134c!important
+    line-height: 2.7em;color:#207aaf!important;text-decoration: none;
 }
 span.more {
     display: block;

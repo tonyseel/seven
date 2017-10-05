@@ -24,7 +24,11 @@
 	position: relative;width:100%;
 }
 
-.welcome-fluid h1{font-size:25px;}
+    .welcome-fluid h1{font-size:25px;}
+    .navbar {padding-top:10px !important;}
+     div.post-excerpt h2{font-size: 23px;line-height:10px;color:#e71d35!important;text-decoration:none}
+	.inner-page h3{font-size:23px;}
+	.posts-archive{padding:0px;}
 
 }
 
@@ -42,7 +46,11 @@
 
 	.head-bottom a{text-align:center;}
 	.img-fluid img{
-	position: relative;width:100%;
-}
+	position: relative;width:100%;}
+   .navbar {padding-top:10px !important;}
+	.form-box .text-box {margin-bottom:8px;}
+     div.post-excerpt h2{font-size: 23px;line-height:10px;color:#e71d35;text-decoration:none}
+	.inner-page h3{font-size:23px;}
+	.posts-archive{padding:0px;}
 	
 }

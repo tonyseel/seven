@@ -1,8 +1,10 @@
-<section class="our-products" id="nav3">
+
+  {% for product in site.data.product-section %}
+<section class="our-products" id="nav3" style="background: url(../images/{{product.product-background-image}}) no-repeat center center fixed;">
         	<div class="container">
             	<div class="row">
 
-                 {% for product in site.data.product-section %}
+               
                 	<aside class="col-md-12"><h1 class="text-center">{{product.product-heading}}</h1></aside>
                   
                 	<aside class="col-md-4">

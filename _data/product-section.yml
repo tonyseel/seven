@@ -1,4 +1,5 @@
-- product-heading: Our product
+- product-background-image: productbck.jpg
+  product-heading: Our product
   product-image-one: product.jpg
   product-subtitle-one: UPVC Plumbing Pipes
   product-image-two: product.jpg

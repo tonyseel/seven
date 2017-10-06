@@ -2,7 +2,7 @@
 title: seven
 baseurl: http://seven.hatkit.com
 favicon: favicon.png
-banner-image: home-banner.jpg 
+banner-image: banner.jpg 
 exclude: ['README.md']
 permalink: pretty #to remove .html
 gems:

@@ -271,6 +271,7 @@ div.post-thumb {
    padding:0px;display:inline-block;
 }
 div.post-thumb p{font-size: 14px;    color: #ff0303;} 
+div.post-thumb img{padding-right:20px;}
 div.post-excerpt {
     color: #666;
     font-size: 14px;
